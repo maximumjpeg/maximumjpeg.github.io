@@ -33,6 +33,7 @@ body {
   font-size: large;
   font-family: 'Courier New', monospace;
   font: 'Courier New';
+  background-color: aqua;
   color: purple;
 }
 ol, ul {
