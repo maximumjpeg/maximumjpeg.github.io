@@ -54,6 +54,7 @@ table {
 .Header {
 	width: 100vw;
 	height: 20vw;
+	border: solid 2px black;
 }
 
 .Header, img {
