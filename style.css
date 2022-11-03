@@ -33,6 +33,7 @@ body {
   font-size: large;
 	font: 'roboto';
 	color: black;
+	background-color: bisque;
 }
 ol, ul {
 	list-style: none;
