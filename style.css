@@ -52,6 +52,7 @@ table {
 }
 
 .Header {
+	margin: auto;
 	width: 80vw;
 	height: 3vw;
 	border: solid 2px black;
