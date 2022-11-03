@@ -52,8 +52,8 @@ table {
 }
 
 .Header {
-	width: 90vw;
-	height: 20vw;
+	width: 80vw;
+	height: 3vw;
 	border: solid 2px black;
 	border-radius: 2px;
 }
