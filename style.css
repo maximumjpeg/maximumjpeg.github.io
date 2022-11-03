@@ -50,3 +50,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.Header {
+	width: 100vw;
+	height: 20vw;
+}
+
+.Header, img {
+  width: 90vw;
+	height: 20vw;
+}
