@@ -57,6 +57,6 @@ table {
 }
 
 .Header, img {
-  width: 90vw;
-	height: 20vw;
+  width: auto;
+	height: auto;
 }
