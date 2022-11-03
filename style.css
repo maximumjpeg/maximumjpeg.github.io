@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
   font-size: large;
-	font: 'roboto';
+	font-family: 'Roboto', sans-serif;
 	color: black;
 	background-color: bisque;
 }
