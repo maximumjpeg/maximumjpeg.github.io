@@ -57,7 +57,7 @@ table {
 	border: solid 2px black;
 }
 
-.Header, img {
+img.cover {
   width: auto;
 	height: auto;
 }
