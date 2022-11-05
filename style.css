@@ -33,7 +33,7 @@ body {
   font-size: large;
 	font-family: 'Roboto', sans-serif;
 	color: black;
-	background-color: bisque;
+	background-color: #FFE4B5;
 }
 ol, ul {
 	list-style: none;
@@ -53,13 +53,19 @@ table {
 
 .Header {
 	margin: auto;
-	width: 80vw;
-	height: 3vw;
-	border: solid 2px black;
-	border-radius: 2px;
+	height: 3%;
+	border: solid 3px rgb(185, 173, 121);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 5px;
 }
 
 img.cover {
   width: auto;
 	height: auto;
+}
+
+.Content {
+	width: 99%;
+	margin: auto;
 }
