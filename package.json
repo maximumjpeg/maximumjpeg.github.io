@@ -1,7 +1,7 @@
 {
   "name": "maximumjpeg.github.io",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./index.jsx",
   "repository": "https://github.com/maximumjpeg/maximumjpeg.github.io.git",
   "author": "Jordan Addleman <xibalbarising@gmail.com>",
   "license": "MIT",

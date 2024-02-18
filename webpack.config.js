@@ -8,7 +8,7 @@ module.exports = {
   // "production" will be minified
   mode: "development",
   // [entry] this is the file where the bundling starts from.
-  entry: "./index.js",
+  entry: "./client/index.jsx",
   // [output] is a configuration object to determine how and where to bundle our code
   output: {
     // [path] is where to output
@@ -32,7 +32,7 @@ module.exports = {
   devtool: "eval-cheap-module-source-map",
   devServer: {
     static: {
-      directory: path.join(__dirname, "client", "dist")
+      directory: path.join(__dirname, "client", "dist"),
     },
     compress: true,
     port: 3000
