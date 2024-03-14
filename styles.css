@@ -33,7 +33,6 @@ body {
   font-size: large;
 	font-family: 'Roboto', sans-serif;
 	color: black;
-	background-color: #FFE4B5;
 }
 ol, ul {
 	list-style: none;
@@ -54,10 +53,18 @@ table {
 .Header {
 	margin: auto;
 	height: 3%;
-	border: solid 3px rgb(185, 173, 121);
+	border: solid 3px rgba(29, 143, 105, 0.858);
+	background-color: rgba(29, 143, 105, 0.858);
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	box-shadow: 5px;
+	text-align: center;
+}
+
+h1 {
+	font-size: xx-large;
+	font-weight: bolder;
+	text-align: center;
 }
 
 img.cover {
@@ -68,4 +75,6 @@ img.cover {
 .Content {
 	width: 99%;
 	margin: auto;
+	border: solid 3px rgba(29, 143, 105, 0.858);
+	background-color: rgba(29, 143, 105, 0.858);
 }

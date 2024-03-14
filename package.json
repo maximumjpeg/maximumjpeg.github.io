@@ -8,9 +8,5 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {},
-  "scripts": {
-    "start": "webpack --mode=development",
-    "build": "webpack --mode=production",
-    "dev": "webpack server --open"
-  }
+  "scripts": {}
 }
