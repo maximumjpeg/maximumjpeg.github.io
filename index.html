@@ -2,55 +2,85 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Jordan Addleman portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>SWE Portfolio</title>
 </head>
 
 <body>
-  <div class="Header">
-    <!-- <img class="cover" src="https://i.pinimg.com/564x/d0/25/0b/d0250b7b3bef2042996d08448a5329ad.jpg"> -->
-    <h1>Jordan Addleman</h1>
-    <img class="pfp" src="./assets/headshot.jpg">
-    <h1>Software + Web Development</h1>
-    <h3>🌎Greater Washington DC area📍</h3>
-    <p>From imagination to the Internets<br>Websites, Apps, Custom Software, Game Development, EdTech Development, AI, Automation</p>
-  </div>
-  <div class="Content">
-    <h1>Projects</h1>
-    <div class="project-gallery">
-      <div class="project-wrapper">
-        <a href="https://github.com/Hidden-In-The-Leaves/waggl">Waggl<br></a>
-        <img class="images" src="https://raw.githubusercontent.com/Hidden-In-The-Leaves/waggl/dev/assets/signup.png">
-        <p>Social media web app for dogs and their humans</p>
-      </div>
-      <div class="project-wrapper">
-        <a href="https://github.com/Redhat2205/FEC/tree/main">Project Atelier e-commerce client</a>
-        <img class="images"
-          src="https://camo.githubusercontent.com/af66610805983a9e2a326a85c9b8fb5e5eca240d9caef0f7c60e17ca65dad6fa/68747470733a2f2f692e6779617a6f2e636f6d2f38633131333266616161386633376533326232616137306263356563353334372e676966">
-        <p>Mock E-Commerce Client</p>
+  <header>
+    <div id="header-style-div">
+      <h1>Mr. Skillful Technologist</h1>
+      <p>Full Stack Developer and Web Designer</p>
+    </div>
+    <nav id="top-nav">
+      <ul id="top-nav-list">
+        <li class="link-card"><a href="https://lostdogcafe.com">About</a></li>
+        <li class="link-card"><a href="https://github.com">Github</a></li>
+        <li class="link-card"><a href="https://pages.github.com">Portfolio</a></li>
+        <li class="link-card"><a href="https://docs.google.com">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Let's bring your vision to the Web!</h2>
+    <div id="hero-styling">
+      <img id="hero-image" alt="developer-at-work" src="
+        https://cdn.seeklearning.com.au/media/images/career-guide/module/developer-module.jpg">
+      <div id="about-me-div">
+        <div id="about-me-copy">
+          <h3 id="about-me-h3">About Me</h3>
+          <p id="about-me-p">Based in the Washington DC area, I specialize in Full Stack React Development and
+            Web Design. I really enjoy game and ed-tech development in my freetime. Fun fact, my snowboard is 170cm from
+            nose to tail. Since early childhood I have loved computer gaming and technology. My love of games and
+            puzzles led me to Software Development and Web Design. I graduated from Hack Reactor's 12-Week Advanced SWE
+            Immersive program in 2022 and have continued to expand my skill sets and repoirtore.
+            A mountain. お金稼ぐ。おれらはスターだ。
+          </p>
+        </div>
       </div>
     </div>
-    <!-- Stylistically offest -->
-    <p>Find me on GitHub <b><a href="https://github.com/maximumjpeg">here<a /></b></p>
-    <p>Find me on LinkedIn <b><a href="https://linkedin.com/in/jordan-addleman">here<a /></b></p>
-    <section>
-      <span>
-        <!-- Add anchor element with email that has subject and body
-with line spaces and line break -->
-        <a href="mailto:addlemanjm@gmail.com?subject=Reaching%20Out&body=How%20are%20you?%0AGreat%20Website!">Feel
-          free to email me here.</a>
-      </span>
-    </section>
-    <section>
-      <p>Thanks for visiting!</p>
-    </section>
-  </div>
-  <!-- Span-->
-  <!-- <script href="./build/bundle.js"></script> -->
+    <h3>Skills</h3>
+    <ul>
+      <li>Web Development</li>
+      <li>Software Development</li>
+      <li>Game Development</li>
+      <li>Ed Tech</li>
+      <li>AI and Automation</li>
+    </ul>
+    <h3>Projects</h3>
+    <ul>
+      <li class="project-card">Waggl</li>
+      <li class="project-card">E-Commerce client</li>
+      <li class="project-card">Kana Study App</li>
+    </ul>
+    <div id="contact-me-div">
+      <h3>Contact Me</h3>
+      <form class="form-element">
+        <div class="form-element">
+          <label for>First Name</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="form-element">
+          <label>Last Name</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="form-element">
+          <label>Email</label><br>
+          <input type="text"><br>
+        </div>
+        <div class="form-element">
+          <label>Message</label><br>
+          <input type="text"><br>
+        </div>
+        <div id="submit-div" class="form-element">
+          <button id="submit-button">Submit</button>
+    </div>
+  </main>
+  <footer>&COPY; 2025 Mr. Skillful Technologist</footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
