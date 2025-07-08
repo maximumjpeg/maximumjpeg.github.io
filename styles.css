@@ -72,7 +72,8 @@ main {
 
 @media (max-width: 768px) {
 	#hero-image {
-		max-width: 20vw !important;
+		max-width: 10vw !important;
+		max-height: 10vw !important;
 	}
 }
 
