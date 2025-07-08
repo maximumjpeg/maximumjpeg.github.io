@@ -101,8 +101,8 @@ h1 {
 
 .pfp {
 	border-radius: 8px;
-	height: 10%;
-	width: 10%;
+	max-height: 10%;
+	max-width: 10%;
 }
 
 
