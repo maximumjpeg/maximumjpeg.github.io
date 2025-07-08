@@ -70,6 +70,12 @@ main {
   box-shadow: 0 10px 25px rgba(255, 255, 255, 0.08); */
 }
 
+@media (max-width: 768px) {
+	#hero-image {
+		max-width: 20vw !important;
+	}
+}
+
 #top-nav {
   margin: 5% 0;
 }
